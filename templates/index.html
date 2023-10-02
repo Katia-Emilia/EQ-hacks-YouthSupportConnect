@@ -1,0 +1,56 @@
+{%extends 'base.html'%}
+
+
+{%block head%}
+
+{%endblock%}
+
+<Title>YouthSupportConnect</Title>
+
+{%block body%}
+
+<div class="content">
+    <h1>List of Communities</h1>
+</div>
+    {% if groupnames |length<1%}
+    <h4>There are no one here yet. Be the first and add a community below!</h4>
+    <div class="form">
+        <form action="/index" method="POST">
+            <input type="text" name="gname" id="gname" placeholder="Name">
+            <input type="text" name="desc" id="desc" placeholder="Description">
+            <input type="text" name="contact" id="contact" placeholder="Contact">
+            <input type="submit" value="Add group">
+        </form>
+    </div>
+    {%else%}
+    <div class="form">
+        <form action="/index" method="POST">
+            <input type="text" name="gname" id="gname">
+            <input type="text" name="desc" id="desc">
+            <input type="text" name="contact" id="contact">
+            <input type="submit" value="Add group">
+        </form>
+    </div>
+    <table>
+        <tr>
+            <th>Group Name</th>
+            <th>Description</th>
+            <th>Contact</th>
+            <th>Report</th>
+        </tr>
+        {% for group in groupnames %}
+        
+        <tr>
+            <td>{{ group.groupname }}</td>
+            <td>{{ group.desc }}</td>
+            <td>{{ group.contact }}</td>
+            <td>
+                <a href="/delete/{{group.id}}">Report</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</div>
+<script src="/templates/scripts.js"></script>
+{%endblock%}

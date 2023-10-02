@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Font;
+    src: url(YoungSerif-Regular.ttf);
+ }
+ * {
+    font-family: Font;
+ }  
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #ccc8c2;
+    background-color:#495565 ;
+}
+.content {
+
+    text-align: center;
+}
+body{
+    display: flex;
+    height: 100%;
+    padding:10px;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    padding: 30px;
+}
+table,th,td{
+    border: 2px solid;
+    border-color: #efebe7b7;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.agreement{
+border-color: #efebe7b7;
+border-radius: 2px;
+border-style: dotted;
+margin:10px;
+}
+a{
+    color:bisque;
+
+}
+a:link {
+    color: bisque;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(171, 161, 149);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(239, 206, 165);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(160, 147, 132);
+  }
