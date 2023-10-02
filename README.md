@@ -1,0 +1,2 @@
+# Eq-hacks-YouthSupportConnect
+YouthSupportConnect is an initiative dedicated to bridging the gap between young individuals and supportive communities. When someone encounters a challenge, it's common to believe they are isolated in their struggles. This mindset is detrimental. By joining a support group or community, this sense of isolation dissipates. Becoming part of a community not only enables you to forge new friendships but also introduces you to people from diverse backgrounds with whom you can connect and relate.
