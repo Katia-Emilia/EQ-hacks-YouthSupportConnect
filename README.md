@@ -10,4 +10,14 @@ Landing page
 
 Agreement page
 
-[agreement.pdf](https://github.com/Katia-Emilia/Eq-hacks-YouthSupportConnect/files/12780033/agreement.pdf)
+<img width="467" alt="image" src="https://github.com/Katia-Emilia/Eq-hacks-YouthSupportConnect/assets/105586454/afaffbcf-ad3f-4393-83c1-57b6ae8e7155">
+
+
+List of communities
+
+<img width="466" alt="image" src="https://github.com/Katia-Emilia/Eq-hacks-YouthSupportConnect/assets/105586454/902c03ee-4fb5-4c37-bbb6-689fb3aa0d50">
+
+
+<img width="470" alt="image" src="https://github.com/Katia-Emilia/Eq-hacks-YouthSupportConnect/assets/105586454/553d75ca-ad5c-457b-81b3-729358d662d7">
+
+
