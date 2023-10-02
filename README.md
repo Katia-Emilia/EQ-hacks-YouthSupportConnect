@@ -7,3 +7,7 @@ Landing page
 
 
 <img width="354" alt="image" src="https://github.com/Katia-Emilia/Eq-hacks-YouthSupportConnect/assets/105586454/7d15f576-f9a4-4b03-a07c-0893769e63c6">
+
+Agreement page
+
+[agreement.pdf](https://github.com/Katia-Emilia/Eq-hacks-YouthSupportConnect/files/12780033/agreement.pdf)
